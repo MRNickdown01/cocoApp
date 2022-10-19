@@ -6,8 +6,6 @@ import "./Home.css";
 import Card from "../components/Card";
 
 const Home: React.FC = () => {
-  const [state, setState] = useState(false);
-  const [];
   return (
     <IonPage>
       <IonContent fullscreen>

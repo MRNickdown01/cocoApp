@@ -16,6 +16,7 @@ const Card: any = ({
   inputName2,
   inputplaceholder,
   radiobutton,
+  inputslot,
 }: any) => {
   return (
     <IonCard
@@ -31,6 +32,7 @@ const Card: any = ({
         {/* input component */}
 
         <Input inputName={inputName} inputplaceholder={inputplaceholder} />
+        {inputslot}
         {inputName2}
 
         {/* button component */}

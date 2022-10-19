@@ -9,6 +9,7 @@ const Input: any = ({ inputplaceholder, inputName }: any) => {
         style={{
           border: "2px solid#1c5a40",
           borderRadius: "6px",
+          marginBottom: "1rem",
         }}
       ></IonInput>
     </>

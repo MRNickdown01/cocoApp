@@ -6,6 +6,7 @@ const Button: any = ({ buttonName }: any) => {
       expand="block"
       style={{
         marginTop: "1rem",
+        marginBottom: "1rem",
       }}
     >
       {buttonName}
