@@ -5,6 +5,7 @@ const Input: any = ({ inputplaceholder, inputName }: any) => {
     <>
       <IonLabel position="stacked">{inputName}</IonLabel>
       <IonInput
+        type="email"
         placeholder={inputplaceholder}
         style={{
           border: "2px solid#1c5a40",
